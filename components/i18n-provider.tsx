@@ -8,6 +8,7 @@ const translations = {
     download: "Download",
     about: "About",
     help: "Help",
+    contact: "Contact", // Add this line
     toggleTheme: "Toggle theme",
     light: "Light",
     dark: "Dark",

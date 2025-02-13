@@ -16,17 +16,17 @@ export function HeroSection() {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-gradient">{t("heroTitle")}</h1>
           <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">{t("heroSubtitle")}</p>
-          <div className="flex gap-4 justify-center">
-            <Button asChild size="lg" className="gap-2">
+          <div className="flex flex-wrap gap-4 justify-center px-4 sm:px-0">
+            <Button asChild size="lg" className="w-full sm:w-auto">
               <Link href="/download">
-                <Download className="w-5 h-5" />
+                <Download className="w-5 h-5 mr-2" />
                 {t("downloadNow")}
               </Link>
             </Button>
-            <Button variant="outline" asChild size="lg" className="gap-2">
+            <Button variant="outline" asChild size="lg" className="w-full sm:w-auto">
               <Link href="/about">
                 {t("learnMore")}
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
           </div>
